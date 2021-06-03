@@ -379,4 +379,4 @@ function removeUserReaction(message, user) {
   }
 }
 
-client.login("ODM1OTUwNTA4MjcwMjg4OTc3.YIW5lA.EwACPZi4BtF8hQJZxNB3qD_CziE");
+client.login(process.env.BOT_TOKEN);
