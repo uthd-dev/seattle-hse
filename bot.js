@@ -291,7 +291,7 @@ function getValPlayerInfo(dmChannel, valInfo) {
             "immortal",
             "radiant",
           ];
-          if (ranks.includes(res)) {
+          if (ranks.includes(res.toLowerCase())) {
             console.log(`Correct Rank: ${res}`);
             let rankNumber = ranks.indexOf(res);
             valInfo.rank = rankNumber;
